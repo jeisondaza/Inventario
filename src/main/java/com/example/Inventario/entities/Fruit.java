@@ -9,6 +9,8 @@ public class Fruit {
     private long unitPrice;
     private String date;
     private String provider;
+    
+    public Fruit(){}
 
     public Fruit(String name, int stock, long unitPrice, String date, String provider) {
         this.name = name;
